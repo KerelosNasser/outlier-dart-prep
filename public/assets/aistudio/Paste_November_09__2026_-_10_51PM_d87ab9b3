@@ -1,0 +1,1620 @@
+# MASTER PROMPT — OUTLIER DART MASTERY LAB
+
+## 1. YOUR ROLE
+
+You are an elite team consisting of:
+
+- A senior Dart language engineer.
+- An expert technical interviewer and assessment designer.
+- An educational experience architect.
+- A senior full-stack engineer.
+- An adaptive learning systems engineer.
+- A QA engineer specializing in code execution and automated evaluation.
+
+Your mission is to RESEARCH, DESIGN, BUILD, TEST, AND COMPLETE a fully functional interactive learning platform that takes a student from zero or beginner-level Dart knowledge to advanced practical Dart proficiency.
+
+This platform has ONE primary objective:
+
+**Prepare me to pass Outlier AI's Dart skill assessment and perform exceptionally well on any Dart-related project tasks I may receive after qualification.**
+
+Do not build a generic Dart tutorial.
+
+Do not build a Flutter course.
+
+Do not build a static documentation website.
+
+Do not build a simple quiz application.
+
+Build an intensive, interactive Dart training environment that teaches through solving, experimentation, debugging, explaining, evaluating, and implementing real code.
+
+I am willing to work through 3–5 Claude usage/quota refresh cycles to complete this project. I care much more about the quality and depth of the finished application than implementation speed.
+
+You must preserve your work across sessions and continue implementing the project rather than restarting it.
+
+---
+
+# 2. FIRST: RESEARCH BEFORE IMPLEMENTATION
+
+Do not assume that you know exactly what Outlier's Dart assessment looks like.
+
+Investigate it first.
+
+Research these areas:
+
+### A. Outlier-specific research
+
+Find and analyze publicly available information about:
+
+- Outlier's coding expert qualification process.
+- Dart-specific skill assessments, if publicly documented.
+- Technical screening and qualification requirements.
+- Available Dart-related projects and their task descriptions.
+- What contributors are expected to produce.
+- How coding tasks are evaluated.
+- Whether tasks involve writing code, debugging, reviewing model-generated code, explaining solutions, or creating evaluation rubrics.
+- Assessment restrictions and allowed tools.
+- Project onboarding requirements.
+- Common mistakes and disqualification risks.
+- Any available first-hand experiences from Dart contributors.
+
+Use sources in this priority order:
+
+1. Official Outlier documentation.
+2. Official Outlier project and onboarding information.
+3. Official Outlier announcements and job descriptions.
+4. Credible first-hand contributor experiences.
+5. Relevant independent assessment platforms.
+6. Community discussions.
+
+### B. Research integrity
+
+You must clearly classify research findings:
+
+- VERIFIED: Confirmed by an authoritative source.
+- REPORTED: Described by a contributor or credible third party.
+- INFERRED: Reasonable preparation recommendation, but not confirmed as an Outlier requirement.
+- UNKNOWN: Information that cannot be established publicly.
+
+Do not invent leaked questions.
+
+Do not pretend that general Dart interview questions are actual Outlier examination questions.
+
+Do not assume that every Outlier coding project follows the same workflow.
+
+Do not claim a particular number of questions, duration, passing score, or assessment structure unless supported by evidence.
+
+The application must distinguish between:
+
+1. Officially documented Outlier requirements.
+2. General Dart engineering knowledge.
+3. Original Outlier-style practice scenarios created for preparation.
+
+### C. Official Dart research
+
+Use the current official Dart documentation:
+
+https://dart.dev/
+
+https://dart.dev/language
+
+https://dart.dev/tools
+
+https://api.dart.dev/
+
+https://dart.dev/effective-dart
+
+https://dart.dev/libraries
+
+https://dart.dev/testing
+
+Research the current stable Dart version and its supported language features.
+
+Do not teach outdated syntax as modern Dart without explaining the distinction.
+
+Create a reference library containing links to the official sources used by the application.
+
+---
+
+# 3. THE LEARNING PHILOSOPHY
+
+The system must follow these principles:
+
+### Principle 1: Active learning
+
+At least 75% of the learning experience should involve interaction.
+
+I should be writing Dart code, predicting outputs, debugging programs, answering questions, reviewing implementations, and solving problems.
+
+Reading is supplementary.
+
+### Principle 2: Understand before memorizing
+
+Every topic should teach:
+
+- What it is.
+- Why it exists.
+- How it works internally.
+- When to use it.
+- When NOT to use it.
+- Common misconceptions.
+- Typical mistakes.
+- Practical applications.
+- How it can appear in technical assessments.
+
+### Principle 3: Assessment-oriented thinking
+
+Never teach a topic without demonstrating how my knowledge of it could be evaluated.
+
+For example, when teaching Dart null safety, include:
+
+- Theoretical questions.
+- Code-tracing questions.
+- Compilation-error identification.
+- Debugging exercises.
+- Implementation exercises.
+- Code-review exercises.
+- Advanced edge cases.
+
+### Principle 4: Difficulty progression
+
+Organize everything across five levels:
+
+1. Beginner.
+2. Intermediate.
+3. Advanced.
+4. Expert.
+5. Assessment-level mastery.
+
+Do not allow me to skip foundational weaknesses simply because I can solve a few easy questions.
+
+### Principle 5: Honest evaluation
+
+Do not tell me I understand something just because I selected a correct multiple-choice answer.
+
+Measure whether I can independently implement, explain, debug, and evaluate that concept.
+
+---
+
+# 4. THE COMPLETE DART CURRICULUM
+
+Build a comprehensive curriculum covering the following subjects.
+
+This is a minimum curriculum, not an exhaustive limitation.
+
+## MODULE 01 — Dart Foundations
+
+Cover:
+
+- Dart program structure.
+- main().
+- Variables and declarations.
+- var, final, const, and late.
+- Built-in types.
+- String interpolation.
+- Operators and precedence.
+- Type inference.
+- Explicit type annotations.
+- Comments and documentation.
+- Control flow.
+- if / else.
+- switch.
+- for / while / do-while.
+- Break and continue.
+- Assert.
+- Scope and variable lifetime.
+- Lexical closures.
+
+Exercises:
+
+- Predict program output.
+- Identify compilation errors.
+- Convert pseudocode into Dart.
+- Implement common functions.
+- Debug loops and conditional logic.
+- Explain evaluation order.
+
+## MODULE 02 — Dart Type System and Null Safety
+
+This is a high-priority module.
+
+Cover:
+
+- Sound null safety.
+- Nullable versus non-nullable types.
+- Type promotion.
+- Null-aware operators.
+- Null assertion operator.
+- Null-aware assignment.
+- Null-coalescing.
+- Type checks.
+- as and is.
+- dynamic.
+- Object and Object?.
+- Never.
+- void.
+- Type inference.
+- Covariance.
+- Runtime type behavior.
+- Required parameters.
+- Late initialization.
+- Flow analysis.
+
+Exercises:
+
+- Fix null-safety compilation errors.
+- Identify unsafe null assertions.
+- Predict type-promotion behavior.
+- Refactor dynamic code into strongly typed code.
+- Review implementations for type-safety problems.
+
+Include deliberately tricky cases.
+
+## MODULE 03 — Functions and Functional Programming
+
+Cover:
+
+- Named functions.
+- Anonymous functions.
+- Arrow functions.
+- Optional positional parameters.
+- Named parameters.
+- Required named parameters.
+- Default parameter values.
+- Higher-order functions.
+- Closures.
+- Lexical scope.
+- Function types.
+- Callbacks.
+- Recursive functions.
+- Pure functions.
+- Functional composition.
+- map, where, reduce, fold, expand, and forEach.
+
+Exercises:
+
+- Transform collections.
+- Implement reusable function utilities.
+- Debug closure-capture problems.
+- Identify side effects.
+- Compare alternative implementations.
+- Evaluate code readability and correctness.
+
+## MODULE 04 — Collections and Data Structures
+
+Cover:
+
+- List.
+- Set.
+- Map.
+- Iterable.
+- Queue.
+- Collection literals.
+- Collection spreads.
+- Null-aware collection elements.
+- Collection-if.
+- Collection-for.
+- Sorting.
+- Filtering.
+- Searching.
+- Grouping.
+- Deduplication.
+- Mapping.
+- Reduction.
+- Nested collections.
+- Mutability and immutability.
+- Collection performance.
+
+Algorithm exercises:
+
+- Reverse a list.
+- Remove duplicates.
+- Find the most frequent element.
+- Group records by category.
+- Merge sorted lists.
+- Find missing integers.
+- Implement binary search.
+- Detect duplicates.
+- Find pairs with a target sum.
+- Implement basic sorting algorithms.
+
+Require complexity analysis where relevant.
+
+Teach Big O using actual examples.
+
+## MODULE 05 — Object-Oriented Programming
+
+Cover:
+
+- Classes and objects.
+- Constructors.
+- Named constructors.
+- Factory constructors.
+- Constant constructors.
+- Initializer lists.
+- Private members.
+- Getters and setters.
+- Inheritance.
+- Abstract classes.
+- Interfaces.
+- Implements.
+- Mixins.
+- Extension methods.
+- Static members.
+- Enums.
+- Class modifiers.
+- Sealed classes.
+- Final classes.
+- Base classes.
+- Interface classes.
+- Super parameters.
+- Redirecting constructors.
+- Operator overloading.
+- Method overriding.
+
+Exercises:
+
+- Build domain models.
+- Refactor poorly designed classes.
+- Identify inheritance mistakes.
+- Compare composition and inheritance.
+- Implement interfaces.
+- Design mixin-based behavior.
+- Debug constructor problems.
+
+## MODULE 06 — Generics and Advanced Type Features
+
+Cover:
+
+- Generic classes.
+- Generic functions.
+- Generic interfaces.
+- Type constraints.
+- Bounded generics.
+- Generic collections.
+- Reified generics.
+- Records.
+- Patterns.
+- Pattern matching.
+- Destructuring.
+- Object patterns.
+- List patterns.
+- Map patterns.
+- Logical patterns.
+- Guards.
+- Switch expressions.
+- Exhaustiveness checking.
+- Sealed hierarchies.
+
+Create advanced code-tracing and type-analysis challenges.
+
+## MODULE 07 — Error Handling and Exceptions
+
+Cover:
+
+- Exceptions.
+- Errors.
+- try / catch.
+- on clauses.
+- finally.
+- throw.
+- Rethrow.
+- Stack traces.
+- Custom exceptions.
+- Error propagation.
+- Resource cleanup.
+- Defensive programming.
+
+Exercises:
+
+- Identify swallowed exceptions.
+- Correct error-handling behavior.
+- Design meaningful exceptions.
+- Debug exception propagation.
+- Review reliability problems.
+
+## MODULE 08 — Asynchronous Dart
+
+This is another high-priority module.
+
+Cover:
+
+- Future.
+- async.
+- await.
+- FutureOr.
+- then.
+- catchError.
+- whenComplete.
+- Future.wait.
+- Future.any.
+- Future.sync.
+- Future.microtask.
+- Future.delayed.
+- Error propagation.
+- Sequential asynchronous execution.
+- Concurrent asynchronous operations.
+- Event loop.
+- Microtask queue.
+- Event queue.
+- Scheduling.
+- Cancellation patterns.
+- Timeouts.
+
+Exercises:
+
+- Predict execution order.
+- Identify missing await.
+- Fix race conditions.
+- Refactor sequential operations.
+- Handle multiple asynchronous operations.
+- Debug exception propagation.
+- Determine the difference between concurrency and parallelism.
+
+Provide detailed execution timelines for difficult examples.
+
+## MODULE 09 — Streams
+
+Cover:
+
+- Stream.
+- StreamController.
+- StreamSubscription.
+- Single-subscription streams.
+- Broadcast streams.
+- Async generators.
+- sync*.
+- async*.
+- yield.
+- yield*.
+- listen.
+- where.
+- map.
+- asyncExpand.
+- Transformations.
+- Stream errors.
+- Stream closing.
+- Backpressure concepts.
+- Resource management.
+
+Exercises:
+
+- Build custom streams.
+- Debug subscription leaks.
+- Transform event sequences.
+- Predict asynchronous outputs.
+- Handle errors correctly.
+- Compare Futures and Streams.
+
+## MODULE 10 — Isolates and Concurrency
+
+Cover:
+
+- Dart isolate model.
+- Isolate.spawn.
+- Isolate.run.
+- SendPort.
+- ReceivePort.
+- Sendable messages.
+- Isolate communication.
+- Worker isolates.
+- CPU-intensive computations.
+- Main isolate.
+- Concurrency versus parallelism.
+- Practical limitations.
+
+Exercises:
+
+- Identify when an isolate is necessary.
+- Explain why async alone does not make CPU-heavy code parallel.
+- Design worker-isolate solutions.
+- Fix communication problems.
+
+Do not overemphasize obscure isolate APIs unless there is a demonstrated reason.
+
+## MODULE 11 — Dart Libraries, Packages, and Tooling
+
+Cover:
+
+- import.
+- export.
+- library.
+- part and part of.
+- show and hide.
+- pubspec.yaml.
+- pub.dev.
+- Dependency management.
+- Package versions.
+- dart create.
+- dart run.
+- dart analyze.
+- dart format.
+- dart fix.
+- dart test.
+- Documentation comments.
+- Effective Dart.
+- Static analysis.
+
+Exercises:
+
+- Diagnose package configuration problems.
+- Fix dependency issues.
+- Identify analyzer warnings.
+- Improve Dart style.
+- Organize multi-file Dart projects.
+
+## MODULE 12 — Testing and Software Quality
+
+Cover:
+
+- Unit testing.
+- Integration testing.
+- Test organization.
+- Assertions.
+- Test setup and teardown.
+- Parameterized tests.
+- Edge cases.
+- Mocking concepts.
+- Boundary testing.
+- Regression testing.
+- Property-based testing concepts.
+- Coverage.
+- Test-driven development.
+
+Exercises:
+
+- Write test cases.
+- Find missing edge cases.
+- Diagnose broken tests.
+- Build test suites.
+- Evaluate test quality.
+
+## MODULE 13 — Advanced Dart Engineering
+
+Cover important modern language concepts beyond basic syntax:
+
+- Extension types.
+- Records and pattern matching.
+- Advanced type promotion.
+- Variance.
+- Callable classes.
+- Operators.
+- Type aliases.
+- F-bounded polymorphism where applicable.
+- Efficient collection transformations.
+- API design.
+- Memory and performance considerations.
+- Effective Dart practices.
+
+Make advanced concepts progressive rather than overwhelming beginners.
+
+## MODULE 14 — Algorithms and Problem Solving in Dart
+
+Build a dedicated problem-solving curriculum.
+
+Cover:
+
+- Arrays and strings.
+- Hash maps.
+- Sets.
+- Two-pointer techniques.
+- Sliding windows.
+- Stack and queue.
+- Linked lists.
+- Recursion.
+- Binary search.
+- Sorting.
+- Trees.
+- Graph fundamentals.
+- Greedy approaches.
+- Dynamic programming fundamentals.
+- Complexity analysis.
+
+Create Dart-specific implementations.
+
+Emphasize correctness, edge cases, readability, and efficient solutions.
+
+---
+
+# 5. OUTLIER-STYLE TASK TRAINING
+
+This is the most important difference between this project and an ordinary Dart course.
+
+Create a dedicated section called:
+
+**OUTLIER WORK SIMULATOR**
+
+The application should prepare me for different potential coding-expert task formats without pretending to reproduce confidential Outlier assessments.
+
+Build these task types:
+
+### Task Type A — Knowledge Assessment
+
+Present:
+
+- Single-choice questions.
+- Multiple-choice questions.
+- True/false questions.
+- Scenario-based questions.
+- Type-system questions.
+- Conceptual questions.
+
+Require an explanation for difficult questions.
+
+### Task Type B — Code Tracing
+
+Show Dart snippets and ask:
+
+- What is the output?
+- Does compilation succeed?
+- Does runtime execution fail?
+- What is the execution order?
+- What is the inferred type?
+- Which exception occurs?
+- Why does this behavior happen?
+
+Support multiline output and detailed reasoning.
+
+### Task Type C — Coding Challenges
+
+Present requirements and an editor.
+
+Require:
+
+- Function implementation.
+- Class implementation.
+- Collection transformations.
+- Algorithmic solutions.
+- JSON transformations.
+- Error handling.
+- Async functionality.
+
+Evaluate against hidden-style test cases that are part of the original practice environment.
+
+### Task Type D — Debugging
+
+Give me intentionally broken Dart programs.
+
+Require me to:
+
+1. Identify the problem.
+2. Explain its cause.
+3. Fix it.
+4. Verify the fix with tests.
+5. Explain why the correction works.
+
+Include compile-time errors, runtime failures, and logic bugs.
+
+### Task Type E — Code Review
+
+Show me one or more Dart implementations.
+
+Ask me to evaluate:
+
+- Correctness.
+- Null safety.
+- Readability.
+- Performance.
+- Error handling.
+- API design.
+- Idiomatic Dart.
+- Maintainability.
+
+Require a written verdict and specific evidence.
+
+### Task Type F — Compare AI-Generated Answers
+
+Give me two different Dart implementations of the same problem.
+
+Ask me to:
+
+- Select the better implementation.
+- Explain why.
+- Identify errors in either answer.
+- Identify missing edge cases.
+- Compare time and space complexity.
+- Suggest improvements.
+
+Include cases where both answers are flawed.
+
+### Task Type G — Prompt and Rubric Creation
+
+Simulate AI-training work where appropriate.
+
+Ask me to create:
+
+- A challenging Dart programming prompt.
+- Expected solution.
+- Test cases.
+- An explicit evaluation rubric.
+- Scoring criteria.
+- Edge-case requirements.
+- Common incorrect approaches.
+
+Evaluate the quality and ambiguity of my prompt and rubric.
+
+### Task Type H — Project Simulation
+
+Give me realistic multi-step Dart implementation assignments.
+
+Examples:
+
+- Build a typed JSON parsing layer.
+- Implement a reusable collection-processing library.
+- Create an asynchronous task scheduler.
+- Implement a data-validation utility.
+- Develop a stream-based event-processing component.
+- Build a generic repository interface.
+- Refactor a poorly designed Dart codebase.
+
+Each simulation needs:
+
+- Requirements.
+- Constraints.
+- Starter code where appropriate.
+- Test cases.
+- Evaluation rubric.
+- Time budget.
+- Final code review.
+
+Do not assume that all of these task formats are officially used by Outlier. Present them as broad preparation simulations and label the evidence level of any Outlier-specific claims.
+
+---
+
+# 6. THE INTERACTIVE CODE EDITOR
+
+I must be able to write actual Dart code.
+
+A question that merely asks me to select an answer is insufficient.
+
+Build an interactive code editor with:
+
+- Syntax highlighting.
+- Line numbers.
+- Code editing.
+- Copy and paste.
+- Reset functionality.
+- Run functionality.
+- Test functionality.
+- Error display.
+- Output console.
+- Execution status.
+- Challenge-specific instructions.
+- Optional starter code.
+
+Use a suitable editor such as Monaco or CodeMirror.
+
+## Dart execution architecture
+
+Research the current technically viable ways to run Dart code from a browser.
+
+Investigate:
+
+1. Official DartPad embedded execution.
+2. Browser-compatible Dart compilation options.
+3. A local Dart SDK execution service.
+4. A secure optional external execution provider.
+
+Select a reliable implementation based on verified capabilities.
+
+Possible architecture:
+
+- A browser editor.
+- A Dart execution adapter.
+- A result parser.
+- A test evaluation engine.
+- A sandbox boundary.
+
+Do not falsely claim that Dart code is executing if the application is only evaluating predefined answers.
+
+If actual browser execution requires a separate service, clearly explain that requirement and provide the complete setup.
+
+A local execution companion using the installed Dart SDK is an acceptable option.
+
+Security requirements:
+
+- Never execute arbitrary untrusted code directly on the main application server.
+- Apply execution timeouts.
+- Limit resource consumption.
+- Restrict filesystem access.
+- Never expose environment variables or server secrets.
+- Distinguish compile errors from runtime errors.
+- Clearly label unavailable execution modes.
+
+For exercises that cannot execute code, provide an honest structured fallback.
+
+---
+
+# 7. QUESTION BANK AND CONTENT ENGINE
+
+The application must contain a substantial original question bank.
+
+Do not generate only 10 questions and call the curriculum complete.
+
+Initial content targets:
+
+- At least 500 original MCQs.
+- At least 200 code-tracing challenges.
+- At least 150 debugging challenges.
+- At least 150 coding exercises.
+- At least 75 code-review scenarios.
+- At least 50 implementation/project simulations.
+- At least 30 complete mock assessments.
+
+These are initial content targets. Quality and correctness matter more than blindly increasing quantity.
+
+Every question must have structured metadata:
+
+- Unique ID.
+- Module.
+- Topic.
+- Subtopic.
+- Difficulty.
+- Task type.
+- Estimated completion time.
+- Learning objectives.
+- Prompt.
+- Starter code.
+- Answer format.
+- Correct answer or reference solution.
+- Explanation.
+- Test cases.
+- Common misconceptions.
+- Hints.
+- Evaluation rubric.
+- Related concepts.
+- Source or original-content designation.
+
+Store content separately from UI code.
+
+Create a validated content schema so malformed questions cannot silently enter the question bank.
+
+Every generated question must be reviewed for correctness.
+
+Avoid ambiguous multiple-choice questions.
+
+Make sure answer keys are not shown before submission.
+
+For coding questions, include meaningful edge cases.
+
+---
+
+# 8. ADAPTIVE LEARNING ENGINE
+
+Build an actual adaptive learning system.
+
+Track:
+
+- Accuracy.
+- Completion rate.
+- Average response time.
+- Hint usage.
+- Number of attempts.
+- First-attempt success.
+- Repeated mistakes.
+- Topic-level mastery.
+- Knowledge retention.
+- Coding performance.
+- Code-review performance.
+- Explanation quality.
+
+Use a mastery model rather than simply counting correct answers.
+
+Implement spaced repetition.
+
+Concepts that I repeatedly misunderstand should return more often.
+
+Questions I consistently solve should appear less frequently.
+
+Distinguish between:
+
+- Recognition: selecting the right answer.
+- Recall: explaining a concept.
+- Application: implementing it.
+- Analysis: debugging or reviewing code.
+- Mastery: applying the concept in unfamiliar scenarios.
+
+Provide an adaptive training queue.
+
+Do not advance a topic simply because I completed its reading material.
+
+---
+
+# 9. HINT AND EXPLANATION SYSTEM
+
+Every challenge should support multiple hint levels.
+
+Example:
+
+Hint 1: Give a conceptual direction.
+
+Hint 2: Identify the relevant Dart feature.
+
+Hint 3: Point toward the likely area of the solution.
+
+Hint 4: Provide pseudocode or a partial implementation.
+
+Only show the complete solution after I submit or explicitly reveal it.
+
+Explanations should be thorough.
+
+For difficult questions, include:
+
+- Correct reasoning.
+- Why the other answers are wrong.
+- The relevant Dart rules.
+- A corrected example.
+- An additional variation.
+- A follow-up challenge.
+
+Never give vague feedback like "Incorrect, try again."
+
+Explain exactly what went wrong.
+
+---
+
+# 10. MOCK ASSESSMENT CENTER
+
+Build a dedicated assessment environment.
+
+Include configurable mock exams with:
+
+- Timers.
+- Mixed question types.
+- Difficulty selection.
+- Randomized questions.
+- Topic-specific exams.
+- Comprehensive exams.
+- No-hint mode.
+- Independent submission.
+- Automatic evaluation.
+- Detailed performance report.
+
+Create several exam categories:
+
+1. Dart Fundamentals.
+2. Type System and Null Safety.
+3. OOP and Generics.
+4. Collections and Algorithms.
+5. Asynchronous Dart.
+6. Streams and Isolates.
+7. Debugging and Code Review.
+8. Advanced Dart.
+9. Mixed Technical Assessment.
+10. Full Dart Mastery Simulation.
+
+Create different time limits.
+
+Do not advertise any particular simulated exam format as Outlier's real exam unless verified.
+
+## Assessment scoring
+
+Evaluate:
+
+- Correctness.
+- Conceptual understanding.
+- Code quality.
+- Edge-case handling.
+- Performance.
+- Reasoning.
+- Debugging accuracy.
+- Time management.
+
+Provide a report showing:
+
+- Overall score.
+- Topic breakdown.
+- Weakest subjects.
+- Strongest subjects.
+- Mistake categories.
+- Time spent.
+- Questions requiring review.
+- Recommended next steps.
+
+Do not allow me to see the answer key during an active mock exam.
+
+---
+
+# 11. PROJECT SIMULATION CENTER
+
+Create an independent environment where I complete realistic Dart engineering assignments.
+
+Each assignment should feel like an actual professional task.
+
+Example assignments:
+
+### Assignment 1: Typed Data Processing Library
+
+Build a Dart library that accepts untrusted JSON and converts it into strongly typed models.
+
+Requirements:
+
+- Null safety.
+- Validation.
+- Error handling.
+- Generics where appropriate.
+- Comprehensive tests.
+
+### Assignment 2: Async Task Manager
+
+Build a task manager that supports:
+
+- Multiple asynchronous operations.
+- Error propagation.
+- Timeouts.
+- Ordered results.
+- Concurrent execution.
+
+### Assignment 3: Stream Processing Engine
+
+Implement:
+
+- Event production.
+- Stream transformations.
+- Filtering.
+- Error recovery.
+- Subscription management.
+
+### Assignment 4: Generic Repository
+
+Build a reusable generic repository abstraction with typed operations.
+
+### Assignment 5: Legacy Code Refactoring
+
+Receive an intentionally poorly written Dart project.
+
+Improve:
+
+- Type safety.
+- Error handling.
+- Readability.
+- Code organization.
+- Testing.
+- Performance.
+
+### Assignment 6: AI Code Evaluation
+
+Compare multiple AI-generated Dart solutions.
+
+Identify:
+
+- Incorrect logic.
+- Compilation problems.
+- Missing requirements.
+- Security issues.
+- Poor design.
+- Performance problems.
+
+Provide a written evaluation and scoring rubric.
+
+### Assignment 7: Advanced Algorithm Implementation
+
+Implement algorithms with strict correctness and complexity requirements.
+
+For every assignment, provide a professional evaluation report.
+
+---
+
+# 12. USER INTERFACE AND EXPERIENCE
+
+Build a polished, professional, desktop-first learning platform.
+
+The design should resemble a combination of:
+
+- A premium coding IDE.
+- A technical assessment platform.
+- A learning analytics dashboard.
+- A competitive programming environment.
+
+Avoid the appearance of a children's learning application.
+
+Avoid overly decorative gradients and unnecessary animations.
+
+### Main dashboard
+
+Display:
+
+- Current mastery score.
+- Learning streak.
+- Total practice time.
+- Completed challenges.
+- Weekly activity.
+- Weakest topics.
+- Strongest topics.
+- Current learning recommendation.
+- Upcoming spaced-repetition reviews.
+- Assessment readiness.
+
+### Curriculum page
+
+Show:
+
+- All modules.
+- Completion progress.
+- Topic mastery.
+- Difficulty.
+- Locked or unlocked progression.
+- Recommended next lesson.
+
+### Practice workspace
+
+Use a flexible layout:
+
+- Left: challenge instructions and hints.
+- Center: code editor or question.
+- Right: test cases, output, and guidance.
+- Bottom: console and evaluation results.
+
+Make it usable on smaller screens too.
+
+### Assessment center
+
+Provide a focused interface with minimal distractions.
+
+### Analytics page
+
+Include:
+
+- Topic mastery heatmap.
+- Accuracy trends.
+- Coding performance trends.
+- Weakness distribution.
+- Time efficiency.
+- Retention performance.
+- Historical mock assessment results.
+
+### Settings
+
+Allow configuration of:
+
+- Daily targets.
+- Preferred difficulty.
+- Learning pace.
+- Exam simulation settings.
+- Editor preferences.
+- Theme.
+- Execution mode.
+
+---
+
+# 13. TECHNICAL ARCHITECTURE
+
+I am a full-stack developer, so build this with sound engineering practices.
+
+Preferred stack:
+
+- Next.js 16 or the latest stable supported version.
+- React.
+- TypeScript.
+- Tailwind CSS v4.
+- shadcn/ui where appropriate.
+- Monaco Editor or CodeMirror.
+- Zustand or an equally suitable state-management solution.
+- Zod for validation.
+- IndexedDB for substantial local-first data.
+- LocalStorage only for small preferences.
+- A suitable charting library.
+
+Use the latest stable compatible versions and check their official documentation.
+
+Architecture requirements:
+
+- Modular feature-based organization.
+- Strict TypeScript.
+- Reusable components.
+- Separation of business logic and presentation.
+- Centralized evaluation engine.
+- Typed exercise schemas.
+- Content management independent of UI.
+- Testable adaptive learning logic.
+- Versioned local persistence.
+- Data migration strategy.
+- Error boundaries.
+- Loading and error states.
+
+The initial version should work locally without requiring paid services.
+
+Do not introduce unnecessary external dependencies.
+
+Do not require authentication just to use the core application.
+
+Do not require paid AI APIs.
+
+## Suggested project structure
+
+Organize the repository into logical modules such as:
+
+- app/
+- components/
+- features/dashboard/
+- features/curriculum/
+- features/practice/
+- features/assessments/
+- features/projects/
+- features/analytics/
+- features/settings/
+- lib/dart-runtime/
+- lib/evaluation/
+- lib/adaptive-learning/
+- lib/spaced-repetition/
+- lib/persistence/
+- lib/content/
+- types/
+- content/modules/
+- content/questions/
+- content/projects/
+- tests/
+
+You can improve this structure when justified.
+
+Do not force every feature into one enormous component.
+
+---
+
+# 14. LOCAL-FIRST PERSISTENCE
+
+My learning data must survive browser refreshes and application restarts.
+
+Persist:
+
+- User progress.
+- Question attempts.
+- Code submissions.
+- Exam results.
+- Topic mastery.
+- Mistake history.
+- Spaced-repetition schedules.
+- Settings.
+- Project submissions.
+
+Use IndexedDB for suitable structured data.
+
+Add:
+
+- Export progress to JSON.
+- Import progress from JSON.
+- Reset progress with confirmation.
+- Schema versioning.
+- Backup and restoration.
+
+The core platform must remain functional offline after its initial assets are loaded, except for execution modes that genuinely require external services.
+
+---
+
+# 15. GAMIFICATION WITHOUT DISTRACTION
+
+Add meaningful progression mechanisms:
+
+- XP for completed exercises.
+- Mastery levels.
+- Daily practice goals.
+- Learning streaks.
+- Achievement milestones.
+- Module completion rewards.
+- Assessment milestones.
+
+Do not reward meaningless clicking.
+
+Award progress for demonstrated understanding.
+
+A learner who repeatedly guesses answers must not achieve an artificially high mastery level.
+
+---
+
+# 16. ENGINEERING AND TESTING REQUIREMENTS
+
+You must actually implement the project.
+
+Do not stop after generating:
+
+- A plan.
+- A product requirements document.
+- Wireframes.
+- A static mockup.
+- A landing page.
+- A basic MVP.
+- A few sample lessons.
+
+The final deliverable must be runnable.
+
+Test:
+
+- Application build.
+- TypeScript compilation.
+- ESLint.
+- Core navigation.
+- Question rendering.
+- Answer evaluation.
+- Code execution.
+- Test-case evaluation.
+- Timer behavior.
+- Persistence.
+- Import/export.
+- Adaptive learning.
+- Spaced repetition.
+- Mock assessment workflow.
+- Progress calculations.
+
+Write unit tests for important business logic.
+
+Write integration tests for critical flows.
+
+Fix errors rather than documenting them as known issues.
+
+Do not silently mock core functionality.
+
+Never display a fake successful code-execution result.
+
+If a feature cannot be completed due to a genuine technical limitation, state that explicitly and provide the best honest alternative.
+
+---
+
+# 17. IMPLEMENTATION STRATEGY — MULTIPLE QUOTA REFRESHES
+
+This is critical.
+
+I explicitly authorize this project to be developed across 3–5 separate Claude usage/quota refresh cycles.
+
+You must NOT sacrifice the final project's quality to fit a single response.
+
+You must NOT bypass usage limits, platform safeguards, or access controls.
+
+Instead, divide the work into independently completable implementation phases.
+
+## PHASE 0 — Research and architecture
+
+- Research current Dart documentation.
+- Investigate Outlier-specific requirements.
+- Verify Dart execution options.
+- Define the product requirements.
+- Design the architecture.
+- Establish the curriculum.
+- Create content schemas.
+- Create PROJECT_STATE.md.
+- Create IMPLEMENTATION_PLAN.md.
+
+Do not spend the entire first phase discussing what you intend to build.
+
+Establish the foundation and proceed to implementation.
+
+## PHASE 1 — Core application
+
+Implement:
+
+- Next.js application.
+- Design system.
+- Navigation.
+- Dashboard.
+- Curriculum navigation.
+- Local persistence.
+- Question schema.
+- Content loading.
+- Basic practice experience.
+
+The application must already be runnable.
+
+## PHASE 2 — Learning engine
+
+Implement:
+
+- Question evaluation.
+- Multiple question types.
+- Coding exercises.
+- Hint system.
+- Explanations.
+- Topic mastery.
+- Error categorization.
+- Adaptive recommendations.
+- Spaced repetition.
+
+## PHASE 3 — Dart execution and assessments
+
+Implement:
+
+- Actual Dart code editor.
+- Execution integration.
+- Test-case evaluation.
+- Debugging challenges.
+- Code-review challenges.
+- Mock assessment system.
+- Timers.
+- Assessment reports.
+
+## PHASE 4 — Complete curriculum and advanced simulations
+
+Implement:
+
+- Remaining curriculum modules.
+- Large original question bank.
+- Project simulations.
+- Advanced Dart challenges.
+- Analytics.
+- Export/import.
+- Accessibility.
+- Complete testing.
+- Performance improvements.
+- Final quality assurance.
+
+These phases are milestones, not permission to leave incomplete features permanently.
+
+If you need additional sessions, create more phases without discarding previous work.
+
+---
+
+# 18. PERSISTENT PROJECT MEMORY
+
+Create these files at the repository root:
+
+### PROJECT_STATE.md
+
+Maintain:
+
+- Project objective.
+- Current architecture.
+- Implemented features.
+- Current working status.
+- Known bugs.
+- Unfinished functionality.
+- Decisions made.
+- Current phase.
+- Exact next actions.
+
+Update this file after each meaningful implementation milestone.
+
+### IMPLEMENTATION_PLAN.md
+
+Maintain a detailed checklist of every required feature.
+
+Use:
+
+- [ ] Not started.
+- [~] In progress.
+- [x] Completed.
+- [!] Blocked.
+
+### RESEARCH_SOURCES.md
+
+Store:
+
+- Official Dart sources.
+- Outlier sources.
+- Third-party sources.
+- Source dates.
+- Verified findings.
+- Unconfirmed information.
+- Research confidence.
+
+### CONTENT_INVENTORY.md
+
+Track:
+
+- Total questions.
+- Questions by module.
+- Questions by difficulty.
+- Questions by type.
+- Verified answer keys.
+- Remaining content requirements.
+
+### CHANGELOG.md
+
+Record meaningful changes across sessions.
+
+## SESSION RESUMPTION PROTOCOL
+
+At the beginning of every new session:
+
+1. Inspect the existing repository.
+2. Read PROJECT_STATE.md.
+3. Read IMPLEMENTATION_PLAN.md.
+4. Read CONTENT_INVENTORY.md.
+5. Check the actual code and current build status.
+6. Identify the highest-priority unfinished work.
+7. Continue from that point.
+
+Do not assume the previous session completed something merely because it planned to.
+
+Verify the actual files and implementation.
+
+Do not regenerate existing components unnecessarily.
+
+Do not replace working code with a fresh scaffold.
+
+Do not restart the project.
+
+At the end of each session:
+
+1. Update PROJECT_STATE.md.
+2. Update IMPLEMENTATION_PLAN.md.
+3. Update CHANGELOG.md.
+4. Run the relevant tests.
+5. Record exactly what works.
+6. Record what remains unfinished.
+7. Give me a short, specific next-session instruction.
+
+When I return after a quota refresh, I should be able to say:
+
+"Continue the Dart Mastery Lab. Read the project state and resume implementation from the next unfinished task."
+
+You must then continue from the actual repository state.
+
+---
+
+# 19. ACCEPTANCE CRITERIA
+
+The project is not finished until all of the following are true:
+
+- [ ] The application runs successfully.
+- [ ] The full curriculum is represented.
+- [ ] Lessons contain interactive exercises.
+- [ ] Multiple question formats work.
+- [ ] Coding exercises allow code submission.
+- [ ] Dart execution uses a real verified execution mechanism.
+- [ ] Automated tests evaluate solutions.
+- [ ] Debugging tasks work.
+- [ ] Code-review exercises work.
+- [ ] Adaptive recommendations work.
+- [ ] Spaced repetition works.
+- [ ] Mock assessments work.
+- [ ] Project simulations work.
+- [ ] Analytics use actual learner data.
+- [ ] Progress survives application restarts.
+- [ ] Import/export works.
+- [ ] Questions have validated answer keys.
+- [ ] Core application tests pass.
+- [ ] The application contains no fake functionality.
+- [ ] No major feature is left as a TODO or placeholder.
+- [ ] Documentation explains installation and execution.
+- [ ] All Outlier-specific claims are appropriately sourced and labeled.
+
+If the question-bank targets cannot reasonably be reached in one quota cycle, continue the work across additional cycles. Do not silently reduce the scope.
+
+---
+
+# 20. IMPORTANT BEHAVIORAL INSTRUCTIONS
+
+Follow these instructions throughout the project:
+
+1. Do not ask me to approve every small architectural decision. Make sound engineering decisions independently.
+2. Do not stop at an MVP.
+3. Do not reduce the curriculum to basic Dart syntax.
+4. Do not turn this into a Flutter course.
+5. Do not create hundreds of repetitive low-quality questions.
+6. Do not invent Outlier assessment information.
+7. Do not claim that generated practice questions are actual proprietary Outlier questions.
+8. Do not leave buttons that do nothing.
+9. Do not fake code execution.
+10. Do not replace functionality with static screenshots.
+11. Do not sacrifice correctness for visual design.
+12. Do not waste tokens repeatedly explaining your intentions.
+13. Do not regenerate completed work unnecessarily.
+14. Prioritize practical mastery over superficial completion metrics.
+
+Use current documentation, verify technical decisions, and implement incrementally.
+
+Use language-server feedback, TypeScript diagnostics, and available static-analysis tools throughout development to catch errors early.
+
+You have permission to make substantial architectural decisions without waiting for my approval.
+
+---
+
+# 21. START NOW
+
+Your first response should:
+
+1. Confirm your understanding of the objective.
+2. Identify any uncertainty around Outlier-specific Dart assessment requirements.
+3. Explain the verified research and execution strategy.
+4. Inspect the current working environment and repository.
+5. Establish the persistent project-state files.
+6. Begin implementing the application.
+
+Do not respond with a generic tutorial.
+
+Do not simply give me a project proposal.
+
+Do not ask me to choose between technologies unnecessarily.
+
+Your goal is to deliver a complete, technically reliable, interactive Dart mastery laboratory that gives me the strongest practical preparation possible for Outlier Dart qualification and project work.
+
+**The final product must teach me to THINK, WRITE, DEBUG, REVIEW, TEST, AND EVALUATE DART CODE at an advanced professional level.**
+
+Start with research and then build.

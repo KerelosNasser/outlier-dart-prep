@@ -1,0 +1,6 @@
+{
+  "name": "Outlier Dart Mastery Lab",
+  "description": "Comprehensive interactive Dart engineering laboratory and Outlier AI technical assessment simulator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
